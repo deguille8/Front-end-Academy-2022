@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+body{
+    background: #A9A9A9;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    border: 20px;
+    border-bottom-style: solid;
+    border-color: #588100;
+    border-bottom-width: 5px;
+    border-radius: 3px;
+}
+
+#Datos_personales{
+    float: left;
+    margin-top: 2cm;
+    margin-bottom: 100%;
+    font-size: 15px;
+    width: 30%;
+}
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #588100;
+}
+#Datos_laborales{
+    float: left;
+    margin-top: 2cm;
+    width: 70%;
+}
+button{
+    background-color: #eee;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: black 5px 5px 15px 5px;
+    margin-bottom: 20px;
+    color: #444;
+}
+h4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+aside>p{
+    width: max-content;
+    border-radius: 15px;
+    font-size: 18px;
+}
+#age, #adress, #phone, #email, #linkedin, #acerca_de_mi{
+    display: none;
+    padding-right: 0px ;
+    justify-content: left;
+}
+.desplegable{
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        justify-content: center;
+}
+.active, button:hover, .deplegable:hover{
+    background-color: #588100;
+}
+.panel{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+  }
